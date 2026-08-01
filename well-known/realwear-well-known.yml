@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: live probe of /.well-known/ discovery surface
+note: >-
+  No .well-known discovery documents were served. www.realwear.com redirects
+  (308) for every probed path and developer.ari-os.com returns 404. RealWear
+  exposes no OAuth/OIDC authorization server, API catalog, or ai-plugin surface
+  (it ships no public REST API; the developer surface is the WearHF on-device
+  voice framework and the Ari voice assistant). Absence is recorded as valid data.
+hosts:
+- host: https://www.realwear.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 308}
+  - {path: /.well-known/oauth-authorization-server, status: 308}
+  - {path: /.well-known/api-catalog, status: 308}
+  - {path: /.well-known/ai-plugin.json, status: 308}
+- host: https://developer.ari-os.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}

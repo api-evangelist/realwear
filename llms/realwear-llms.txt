@@ -1,0 +1,101 @@
+# Ari OS
+
+## Docs
+
+- [Account and plans](https://developer.ari-os.com/ari-cloud/account-and-plans.md): Manage your profile, see your current plan, and upgrade Ari in Ari Cloud.
+- [Review your chat history](https://developer.ari-os.com/ari-cloud/chat-history.md): Read past conversations with Ari in Ari Cloud, grouped by date, with the full transcript and any on-screen cards Ari showed.
+- [Connect your accounts](https://developer.ari-os.com/ari-cloud/connectors.md): Use the Connectors page in Ari Cloud to link Ari to the apps and accounts you already use.
+- [Getting started with Ari Cloud](https://developer.ari-os.com/ari-cloud/getting-started.md): Sign in to Ari Cloud and find your way around the dashboard.
+- [Manage what Ari remembers](https://developer.ari-os.com/ari-cloud/memory.md): See what Ari remembers about you, and turn long-term memory on or off.
+- [Ari Cloud overview](https://developer.ari-os.com/ari-cloud/overview.md): The web dashboard where you set up and manage Ari: connectors, skills, memory, chats, your account, and your plan.
+- [Turn on and create skills](https://developer.ari-os.com/ari-cloud/skills.md): Use the Skills page in Ari Cloud to turn Ari's skills on or off and create your own with the Ari Skill Creator.
+- [Memory](https://developer.ari-os.com/ari/capabilities/memory.md): How Ari remembers context within a session and across sessions
+- [Skills](https://developer.ari-os.com/ari/capabilities/skills.md): Saved playbooks Ari runs when you ask
+- [Voice confirmation](https://developer.ari-os.com/ari/capabilities/voice-confirmation.md): When Ari acts directly, and when it asks you first
+- [Voice interaction](https://developer.ari-os.com/ari/capabilities/voice-interaction.md): How Ari listens and talks in loud, shared, hands-busy environments
+- [Ari Changelog](https://developer.ari-os.com/ari/changelog.md): Product updates and releases
+- [Microsoft Outlook Calendar](https://developer.ari-os.com/ari/connectors/calendar.md): Outlook calendar by voice
+- [Microsoft Contacts](https://developer.ari-os.com/ari/connectors/contacts.md): Search your organization directory by voice
+- [Microsoft Copilot](https://developer.ari-os.com/ari/connectors/copilot.md): Search SharePoint and OneDrive by voice
+- [Device control](https://developer.ari-os.com/ari/connectors/device-control.md): Operate the headset itself by voice
+- [Microsoft Outlook Emails](https://developer.ari-os.com/ari/connectors/email.md): Read, compose, reply, and send Outlook email by voice
+- [Connectors](https://developer.ari-os.com/ari/connectors/overview.md): The systems Ari can talk to out of the box
+- [Microsoft Teams](https://developer.ari-os.com/ari/connectors/teams.md): Check messages and chat on Teams, hands-free
+- [Custom Skills](https://developer.ari-os.com/ari/extend/custom-skills.md): Create your own skills with the Ari Skill Creator
+- [How Ari Works](https://developer.ari-os.com/ari/how-it-works.md): The device and the cloud, and what happens between them
+- [Introduction to Ari](https://developer.ari-os.com/ari/introduction.md): Voice AI for workers whose hands are busy
+- [Network, firewall & connectivity requirements](https://developer.ari-os.com/ari/network-requirements.md): What IT and security teams need to allowlist for Ari, and how it behaves when the network is poor
+- [Privacy and Data Handling](https://developer.ari-os.com/ari/privacy.md): What Ari collects, where it goes, and what you control
+- [Quickstart: AR Glasses](https://developer.ari-os.com/ari/quickstart-glasses.md): Run Ari on a headset and talk to it hands-free
+- [Quickstart: Web](https://developer.ari-os.com/ari/quickstart-web.md): Have your first conversation with Ari in a browser
+- [Supported Devices](https://developer.ari-os.com/ari/supported-devices.md): Where Ari runs today
+- [Enabling Developer Tools](https://developer.ari-os.com/device_docs/docs/Basics/enabling-developer-tools.md): Learn how to enable developer tools and USB debugging on RealWear devices
+- [Microsoft Power Apps](https://developer.ari-os.com/device_docs/docs/Basics/environments/Powerapps_1.md): Getting started with Microsoft Power Apps on RealWear devices
+- [Android Development](https://developer.ari-os.com/device_docs/docs/Basics/environments/android.md): Develop native Android applications for RealWear devices
+- [Cordova Development](https://developer.ari-os.com/device_docs/docs/Basics/environments/cordova.md): Build Cordova applications for RealWear devices
+- [HTML Development](https://developer.ari-os.com/device_docs/docs/Basics/environments/html.md): Create HTML web applications for RealWear devices using WearML directives
+- [Development Environment Introduction](https://developer.ari-os.com/device_docs/docs/Basics/environments/introduction.md): Overview of supported development frameworks for RealWear devices
+- [React Native Development](https://developer.ari-os.com/device_docs/docs/Basics/environments/react-native.md): Build React Native applications for RealWear devices
+- [Unity Development](https://developer.ari-os.com/device_docs/docs/Basics/environments/unity.md): Build Unity apps for RealWear devices
+- [Xamarin Development](https://developer.ari-os.com/device_docs/docs/Basics/environments/xamarin.md): Build Xamarin applications for RealWear devices
+- [The Basics](https://developer.ari-os.com/device_docs/docs/Basics/intro.md): Introduction to developing applications for RealWear hands-free devices using WearHF
+- [User Experience Guidelines](https://developer.ari-os.com/device_docs/docs/Basics/ux-guidelines.md): Best practices for designing hands-free user experiences for RealWear devices
+- [01 overview](https://developer.ari-os.com/device_docs/docs/certified_apps/01-overview.md)
+- [01 intro](https://developer.ari-os.com/device_docs/docs/cloud/01-intro.md)
+- [02 assigning devices](https://developer.ari-os.com/device_docs/docs/cloud/02-assigning-devices.md)
+- [04 assigning apps to device](https://developer.ari-os.com/device_docs/docs/cloud/04-assigning-apps-to-device.md)
+- [Action Button](https://developer.ari-os.com/device_docs/docs/developer-examples/action-button.md): How to capture and handle the RealWear action button in your application
+- [Audio Capture](https://developer.ari-os.com/device_docs/docs/developer-examples/audio-capture.md): Learn how to record and playback audio on RealWear devices
+- [Barcode Applet](https://developer.ari-os.com/device_docs/docs/developer-examples/barcode-applet.md): Launch the barcode scanner and read scanned codes
+- [BNF Grammar](https://developer.ari-os.com/device_docs/docs/developer-examples/bnf-grammar.md): Register BNF grammar for complex voice command combinations
+- [Camera Applet](https://developer.ari-os.com/device_docs/docs/developer-examples/camera-applet.md): Launch the camera to capture photos and videos
+- [Examples Overview](https://developer.ari-os.com/device_docs/docs/developer-examples/developer-examples-tutorial.md): Download and explore RealWear developer examples
+- [Document Viewer Applet](https://developer.ari-os.com/device_docs/docs/developer-examples/document-viewer-applet.md): Open documents and images in the document viewer
+- [Help Menu Capture](https://developer.ari-os.com/device_docs/docs/developer-examples/help-menu-capture.md): Add custom commands to the Show Help menu
+- [Keyboard and Dictation](https://developer.ari-os.com/device_docs/docs/developer-examples/keyboard-and-dictation.md): Accept user input via voice keyboard or dictation
+- [Microphone Release](https://developer.ari-os.com/device_docs/docs/developer-examples/microphone-release.md): Release the microphone to disable voice recognition
+- [Movie Viewer Applet](https://developer.ari-os.com/device_docs/docs/developer-examples/movie-viewer-applet.md): Open videos in the movie viewer
+- [Speech Recognizer](https://developer.ari-os.com/device_docs/docs/developer-examples/speech-recognizer.md): Programmatically add voice commands to your application
+- [Telephoto Mode](https://developer.ari-os.com/device_docs/docs/developer-examples/telephoto.md): Toggle and check telephoto mode settings
+- [Text to Speech](https://developer.ari-os.com/device_docs/docs/developer-examples/text-to-speech.md): Use the built-in text to speech engine
+- [RealWear Developer Documentation](https://developer.ari-os.com/device_docs/docs/developer-guide.md): Complete guide to developing applications for RealWear hands-free devices
+- [Developer Program](https://developer.ari-os.com/device_docs/docs/developer-program.md): Join the RealWear Developer Program for priority support and exclusive benefits
+- [Realwear explorer](https://developer.ari-os.com/device_docs/docs/downloads/realwear-explorer.md): RealWear Explorer is a tool that mirrors the screen of your RealWear Device to your Windows or Mac computer.
+- [Language Support](https://developer.ari-os.com/device_docs/docs/hardware/languages.md): Supported languages and firmware versions for RealWear devices
+- [Thermal camera](https://developer.ari-os.com/device_docs/docs/hardware/thermal-camera.md)
+- [Requirements](https://developer.ari-os.com/device_docs/docs/marketplace/01-overview.md)
+- [Open Source Contributions](https://developer.ari-os.com/device_docs/docs/open-source.md): Acknowledgement of open-source libraries and GPL compliance
+- [01 Optimizing for RealWear](https://developer.ari-os.com/device_docs/docs/powerapps-tutorials/01-Optimizing-for-RealWear.md)
+- [02 UX Considerations](https://developer.ari-os.com/device_docs/docs/powerapps-tutorials/02-UX-Considerations.md)
+- [03 Business Card Reader](https://developer.ari-os.com/device_docs/docs/powerapps-tutorials/03-Business-Card-Reader.md)
+- [04 Thermal Image Capture](https://developer.ari-os.com/device_docs/docs/powerapps-tutorials/04-Thermal-Image-Capture.md)
+- [05 Teams Support Call Launcher](https://developer.ari-os.com/device_docs/docs/powerapps-tutorials/05-Teams_Support_Call_Launcher.md)
+- [06 Process Flow](https://developer.ari-os.com/device_docs/docs/powerapps-tutorials/06-Process_Flow.md)
+- [07 Start Work Demo](https://developer.ari-os.com/device_docs/docs/powerapps-tutorials/07-Start-Work-Demo.md)
+- [Api reference](https://developer.ari-os.com/device_docs/docs/unity-development/api-reference.md)
+- [Tutorial](https://developer.ari-os.com/device_docs/docs/unity-development/tutorial.md)
+- [Action button](https://developer.ari-os.com/device_docs/docs/unity-development/unity-development-examples/action-button.md)
+- [App release notes](https://developer.ari-os.com/device_docs/docs/unity-development/unity-development-examples/app-release-notes.md)
+- [Global commands](https://developer.ari-os.com/device_docs/docs/unity-development/unity-development-examples/global-commands.md)
+- [Text to speech](https://developer.ari-os.com/device_docs/docs/unity-development/unity-development-examples/text-to-speech.md)
+- [Unity examples](https://developer.ari-os.com/device_docs/docs/unity-development/unity-development-examples/unity-examples.md)
+- [Voice commands](https://developer.ari-os.com/device_docs/docs/unity-development/unity-development-examples/voice-commands.md)
+- [Embedded api](https://developer.ari-os.com/device_docs/docs/wear-ml/embedded-api.md)
+- [Barcode reader intents](https://developer.ari-os.com/device_docs/docs/wear-ml/wearhf-intents/barcode-reader-intents.md)
+- [Camera intents](https://developer.ari-os.com/device_docs/docs/wear-ml/wearhf-intents/camera-intents.md)
+- [Document viewer intents](https://developer.ari-os.com/device_docs/docs/wear-ml/wearhf-intents/document-viewer-intents.md)
+- [Media player intents](https://developer.ari-os.com/device_docs/docs/wear-ml/wearhf-intents/media-player-intents.md)
+- [Microphone intents](https://developer.ari-os.com/device_docs/docs/wear-ml/wearhf-intents/microphone-intents.md)
+- [Show help intents](https://developer.ari-os.com/device_docs/docs/wear-ml/wearhf-intents/show-help-intents.md)
+- [Text to speech intents](https://developer.ari-os.com/device_docs/docs/wear-ml/wearhf-intents/text-to-speech-intents.md)
+- [Voice input intents](https://developer.ari-os.com/device_docs/docs/wear-ml/wearhf-intents/voice-input-intents.md)
+- [Wearhf intents](https://developer.ari-os.com/device_docs/docs/wear-ml/wearhf-intents/wearhf-intents.md)
+- [Wearml scripting](https://developer.ari-os.com/device_docs/docs/wear-ml/wearml-scripting/wearml-scripting.md)
+- [Wearml scripting api](https://developer.ari-os.com/device_docs/docs/wear-ml/wearml-scripting/wearml-scripting-api.md)
+- [Wearml scripting tutorial](https://developer.ari-os.com/device_docs/docs/wear-ml/wearml-scripting/wearml-scripting-tutorial.md)
+- [Ari OS](https://developer.ari-os.com/index.md): Voice AI, the dashboard that manages it, and the AR devices that run it
+
+## Optional
+
+- [Community](https://discord.gg/7ms3awRxrF)
+- [Contact Us](https://www.realwear.com/contact-us)

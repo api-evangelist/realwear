@@ -1,8 +1,30 @@
 aid: realwear
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realwear.png
 name: RealWear
-description: 'RealWear is a company surfaced as a portfolio company of foundry-group and added to the
-  API Evangelist network as a stub for enrichment. Sector: hardware. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  RealWear builds rugged, hands-free head-mounted and assisted-reality wearable
+  computers (the Navigator series and HMT-1) for frontline and industrial workers
+  in energy, manufacturing, field service, and utilities. Its Android-based devices
+  are operated entirely by voice through the on-device WearHF service, which turns
+  any Android app's touch controls into voice commands and can be tuned with WearML
+  voice directives placed in UI metadata — so there is no separate SDK to install.
+  RealWear now also ships Ari, a voice-first AI assistant (Ari OS and the Ari Cloud
+  dashboard) with Microsoft connectors (Teams, Outlook email and calendar, contacts,
+  Copilot), skills, and cross-session memory. Developers extend the platform with
+  native Android, Unity, React Native, Cordova, Xamarin, and HTML apps plus custom
+  Ari skills. This profile was surfaced as a Foundry Group portfolio company and
+  enriched from RealWear's public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/realwear/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Hardware
+- Wearables
+- Voice AI
+- Augmented Reality
+- Assisted Reality
+- Frontline Workers
+- Industrial
+- Android
+- Hands-Free
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,37 @@ maintainers:
 common:
 - type: Website
   url: https://www.realwear.com
+- type: DeveloperPortal
+  url: https://developer.ari-os.com/
+- type: Documentation
+  url: https://developer.ari-os.com/device_docs/docs/Basics/intro
+- type: APIReference
+  name: WearHF Directive Reference
+  url: https://developer.ari-os.com/device_docs/docs/wear-ml/embedded-api
+- type: GettingStarted
+  url: https://developer.ari-os.com/ari/quickstart-web
+- type: GitHubOrganization
+  url: https://github.com/realwear
+- type: Support
+  url: https://support.realwear.com/
+- type: Blog
+  url: https://www.realwear.com/blog
+- type: PrivacyPolicy
+  url: https://developer.ari-os.com/ari/privacy
+- type: ChangeLog
+  name: Ari Changelog
+  url: https://developer.ari-os.com/ari/changelog
+- type: ChangeLog
+  name: Ari Changelog (artifact)
+  url: changelog/realwear-changelog.yml
+- type: LLMsTxt
+  url: llms/realwear-llms.txt
+- type: WellKnown
+  url: well-known/realwear-well-known.yml
+- type: DomainSecurity
+  url: security/realwear-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

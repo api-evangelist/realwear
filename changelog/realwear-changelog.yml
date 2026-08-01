@@ -1,0 +1,55 @@
+generated: '2026-07-20'
+method: searched
+source: https://developer.ari-os.com/ari/changelog
+name: Ari Changelog
+description: Product updates and releases for Ari, RealWear's voice-first AI assistant (Ari OS / Ari Cloud).
+versioning:
+  scheme: marketing-version
+  cadence: monthly
+  current: '2.2'
+  current_date: '2026-04'
+entries:
+- version: '2.2'
+  date: '2026-04'
+  current: true
+  tags: [voice, connectors, performance, fixes]
+  highlights:
+  - Send Microsoft Teams messages by voice with draft-and-confirm flow.
+  - New listening mode for silent dictation ("start listening" / "take my report").
+  - Quick acknowledgments on slower actions while a longer search runs.
+  - Better speech recognition across 20 languages, including mid-sentence language switching.
+  - Microsoft connectors (email, Teams, calendar, contacts) cleanup with clearer send flow.
+  breaking: false
+- version: '2.1'
+  date: '2026-03'
+  tags: [connectors, voice, ui]
+  highlights:
+  - New Microsoft Copilot connector to search SharePoint and OneDrive documents.
+  - Expanded to 20 languages with mid-conversation language switching.
+  - Cross-session memory of user facts (preferred language, common contacts) and on-screen context.
+  - Device control display/volume scales corrected per AR headset.
+  breaking: false
+- version: '2.0'
+  date: '2026-02'
+  tags: [connectors, voice, ui]
+  highlights:
+  - Reorganized skills into self-contained connectors an admin can enable per user.
+  - Microsoft Teams parity with email (send messages, open chats, start conversations by voice).
+  - Faster two-way voice streaming and improved speech recognition.
+  - New `clear UI` voice command.
+  breaking: true
+  breaking_notes: Skills reorganized into connectors (administration model change).
+- version: '1.4'
+  date: '2026-01'
+  tags: [reliability, voice, performance]
+  highlights:
+  - Faster access in more regions.
+  - Steadier response times under heavy traffic and more reliable long sessions.
+  breaking: false
+- version: '1.3'
+  date: '2025-12'
+  tags: [voice, performance]
+  highlights:
+  - Went live across several Ari regions.
+  - Improved cross-session context recall per user.
+  breaking: false
